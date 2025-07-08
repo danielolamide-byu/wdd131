@@ -1,7 +1,7 @@
 
 
 main {
-    max-width: 960px;
+    max-width: auto;
     margin: 0 auto;
     /* centers the content */
     padding: 1rem;
