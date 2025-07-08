@@ -1,5 +1,12 @@
 
 
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    /* centers the content */
+    padding: 1rem;
+}
+
 body header h1 {
     color: azure;
     background-color: blue;
