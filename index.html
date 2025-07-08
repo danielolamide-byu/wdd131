@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home Page">
+    <meta name="description" content="This is the Home Page for the WDD131 course.">
     <meta name="author" content="Daniel">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap">
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
-    <title>WDD - Dynamic Web Fundamentals - Olamide Daniel</title>
+    <title>WDD131 - Dynamic Web Fundamentals - Olamide Daniel</title>
 </head>
 
 <body>
-    <main>
         <header>
-            <h1><span id="course-title">WDD 131 - Dynamic Web Fundamentals - <span1>Olamide Daniel</span1></span></h1>
+            <h1><span id="course-title">WDD 131 - Dynamic Web Fundamentals - <span class="nameColor">Olamide Daniel</span></span></h1>
             <nav>
                 <a href="">Linked-In</a>
                 <a href="">Canva</a>
@@ -26,37 +25,46 @@
                 <a href="">Final Project</a>
             </nav>
         </header>
+        <main>
         <div class="card-container">
                 <section class="card1">
                     <div class="card-header">
-                        <h3>About Me</h3>
+                        <h2>About Me</h2>
                     </div>
-                    <span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit alias sit minima vitae consequatur voluptates a natus iusto quasi ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, obcaecati neque delectus ipsum consequatur necessitatibus dolore recusandae, voluptatem accusamus quae dolorem earum dolores blanditiis libero est, facere aliquid non. Quia?</p>
+                    <div class="firstCard">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat voluptatum ratione delectus. Non repellat cum a sed quas modi iusto, ducimus doloremque nostrum, vitae fugiat totam iste libero eius facilis tempore. Nesciunt molestias quae enim assumenda est error eius, reprehenderit harum illo pariatur. Sint maiores officiis ullam aspernatur rem unde iusto totam voluptatum vel asperiores! Deserunt laudantium accusantium nobis repellat obcaecati dignissimos quibusdam aliquid beatae, cupiditate laboriosam voluptatibus in culpa repellendus praesentium, animi rem impedit.</p>
                         <img src="images/profile.jpg" alt="person">
-                    </span>
-                    <p class="location">Lagos, Nigeria.<p/>
+                    </div>
+                    <p class="location">Lagos, Nigeria.</p>
                     <section class="country">
                         <p class="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione neque odio, doloremque consequuntur itaque nihil
                             porro voluptatum voluptates saepe magni recusandae ipsam! Accusantium perspiciatis sit velit adipisci voluptate qui
                             laudantium consequuntur, quia quidem sunt est dolores ut quis voluptatibus quod consequatur hic. Totam incidunt
                             architecto perferendis eum beatae ex cum?</p>
+                            <figure>
                             <img src="images/nigeria.png" alt="flag" class="img"> 
+                            <figcaption class="figure">The flag of Nigeria.</figcaption>
+                        </figure>
                     </section>
                 </section>
         <section class="card2">
             <div class="card-header">
-                <h3>Web Dev Resources</h3>
+                <h2>Web Dev Resources</h2>
             </div>
-            <h1>Now is the TIme.</h1>
+            <ul>
+                <li><a href="">CSS Tricks</a></li>
+                <li><a href="">MDN Documentation</a></li>
+                <li><a href="">Git</a></li>
+                <li><a href="">CSS Validiator</a></li>
+            </ul>
         </section>
         </div>
-        <footer>
+    </main>
+    <footer>
             <p>&copy; <span id="currentyear"></span> | Olamide Daniel | Nigeria</p>
             <p>Last Modified: <span id="lastModified"></span></p>
 
         </footer>
-    </main>
 
 </body>
 
