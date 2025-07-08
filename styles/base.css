@@ -1,0 +1,132 @@
+
+
+body main header h1 {
+    color: azure;
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+body main header h1 span1 {
+    color: yellow;
+}
+
+main header nav {
+    display: flex;
+    flex: 1 1 100px;
+    background-color: black;
+}
+
+main header nav a {
+    display: flex;
+    flex: 1 1 auto;
+    color: #ffffff;
+    padding: 0.75rem;
+    text-decoration: none;
+    justify-content: center;
+}
+
+main header nav a:hover {
+    color: green;
+    font-weight: bolder;
+    transform: translateY(-3px);
+}
+
+.card1 {
+    width: 1000px;
+    color: rgb(1, 14, 14);
+    border-radius: 5px;
+    margin: 10px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s;
+}
+
+.card2{
+    width: 300px;
+    color: brown;
+    border-radius: 5px;
+    margin: 10px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s;
+    background-color: #f1f1f1
+}
+
+div section h3 {
+    text-align: center;
+}
+
+div section span {
+    display: flex;
+    margin: 30px;
+}
+
+.country {
+    margin: 30px;
+}
+
+div section span p {
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div section span img {
+    width: 150px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.card-container {
+    display: flex;
+}
+
+section.country img {
+    margin-left: 90px;
+}
+
+.card-header {
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(23, 57, 225);
+    color: white;
+    padding: 0.3rem;
+    text-align: center;
+    line-height: 0px;
+}
+
+.img {
+    height: 100px;
+}
+
+div section.country {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.location {
+    text-align: center;
+    margin: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+footer {
+    color: yellow;
+    background-color: rgb(23, 57, 225);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
