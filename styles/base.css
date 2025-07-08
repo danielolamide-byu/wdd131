@@ -1,6 +1,6 @@
 
 
-body main header h1 {
+body header h1 {
     color: azure;
     background-color: blue;
     padding: 20px;
@@ -8,17 +8,17 @@ body main header h1 {
     margin: 0px;
 }
 
-body main header h1 span1 {
+.nameColor{
     color: yellow;
 }
 
-main header nav {
+header nav {
     display: flex;
     flex: 1 1 100px;
     background-color: black;
 }
 
-main header nav a {
+header nav a {
     display: flex;
     flex: 1 1 auto;
     color: #ffffff;
@@ -27,7 +27,7 @@ main header nav a {
     justify-content: center;
 }
 
-main header nav a:hover {
+header nav a:hover {
     color: green;
     font-weight: bolder;
     transform: translateY(-3px);
@@ -58,21 +58,17 @@ main header nav a:hover {
     background-color: #f1f1f1
 }
 
-div section h3 {
-    text-align: center;
-}
-
-div section span {
+.firstCard {
     display: flex;
     margin: 30px;
 }
 
 .country {
-    margin: 30px;
+    margin: 0px;
 }
 
-div section span p {
-    margin-right: 30px;
+.firstCard p {
+    margin: 30px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -80,9 +76,11 @@ div section span p {
 .p {
     font-size: 15px;
     font-weight: bold;
+    margin: 50px;
+    margin-top: 20px;
 }
 
-div section span img {
+.firstCard img {
     width: 150px;
     height: 200px;
     margin-right: 50px;
@@ -92,8 +90,26 @@ div section span img {
     display: flex;
 }
 
-section.country img {
-    margin-left: 90px;
+section.card2 ul {
+    display: grid;
+    padding: 30px;
+    font-weight: bold;
+}
+
+section.card2 ul li {
+    margin: 5px;
+}
+
+section.country figure img {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.figure {
+    margin: 5px;
+    margin-left: 50px;
+    color: darkgreen;
 }
 
 .card-header {
@@ -117,7 +133,7 @@ div section.country {
 
 .location {
     text-align: center;
-    margin: 30px;
+    margin-bottom: 0px;
     font-size: xx-large;
     font-weight: bold;
 }
