@@ -1,0 +1,72 @@
+
+
+header nav {
+    display: flex;
+    color: blue;
+    flex: 1 1 100px;
+    background-color: blueviolet;
+    align-items: center;
+}
+
+header nav a {
+    display: flex;
+    flex: 1 1 auto;
+    color: #ffffff;
+    padding: 1.3rem;
+    text-decoration: none;
+    justify-content: center;
+}
+
+body main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body main div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+body main div figure img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hamburger {
+    display: none;
+    /* hidden by default */
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    text-align: right;
+        justify-content: right;
+        justify-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+}
+
+footer {
+    color: yellow;
+    background-color: rgb(23, 57, 225);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
