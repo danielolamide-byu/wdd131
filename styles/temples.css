@@ -2,7 +2,7 @@
 
 header nav {
     display: flex;
-    color: blue;
+    color: rgb(255, 253, 253);
     flex: 1 1 100px;
     background-color: blueviolet;
     align-items: center;
@@ -11,7 +11,7 @@ header nav {
 header nav a {
     display: flex;
     flex: 1 1 auto;
-    color: #ffffff;
+    color: #0c0c0c;
     padding: 1.3rem;
     text-decoration: none;
     justify-content: center;
@@ -22,6 +22,18 @@ body main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+body main h2 {
+    margin-bottom: 580px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a:hover{
+    color: coral;
+    transform: translateY(-2px);
 }
 
 body main div {
@@ -43,7 +55,7 @@ body main div figure img {
     font-size: 2rem;
     background: none;
     border: none;
-    color: white;
+    color: rgb(20, 19, 19);
     cursor: pointer;
 }
 
@@ -58,7 +70,7 @@ body main div figure img {
 
 .nav-links li a {
     text-decoration: none;
-    color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
