@@ -1,13 +1,7 @@
 
 
-const DAYS = 6;
-const LIMIT = 30;
-let studentReport = [11, 42, 33, 64, 29, 37, 44]
-
-
-
-studentReport.forEach(function (item) {
-    if (item < LIMIT) {
-      console.log(item);
-    }
-  });
+let username;
+document.getElementById("button").onclick = function () {
+  username = document.getElementById("spaces").value
+  console.log(`Welcome ${username}`);
+};
