@@ -4,67 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the Temples responsive page.">
-    <meta name="author" content="Daniel">
     <link rel="stylesheet" href="styles/temples.css">
-    <link rel="stylesheet" href="styles/large-temple.css">
-    <script src="scripts/temples.js" defer></script>
-    <title>Temple Album</title>
+    <script src="scripts/temple.js" defer></script>
+    <title>Document</title>
 </head>
-
 <body>
     <header>
         <nav>
             <h1>Temple Album</h1>
             <button class="hamburger" id="hamburger-btn">&#9776;</button>
             <ul class="nav-links" id="nav-links">
-                <li><a href="">Home</a></li>
-                <li><a href="">Old</a></li>
-                <li><a href="">New</a></li>
-                <li><a href="">Large</a></li>
-                <li><a href="">Small</a></li>
+                <li><a href="" class="links">Home</a></li>
+                <li><a href="#" id="filterBefore1900" class="links">Old</a></li>
+                <li><a href="#" id="filterAfter2000" class="links">New</a></li>
+                <li><a href="" id="filterlarge" class="links">Large</a></li>
+                <li><a href="" id="filtersmall" class="links">Small</a></li>
             </ul>
-
         </nav>
-    </header>
-    <main>
-        <h2>Home</h2>
-        <div>
-            <figure><img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure><img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure><img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure><img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure><img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure> <img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure> <img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure> <img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-            <figure> <img src="images/aba_nigeria_temple_lds.webp" alt="Temple picture">
-                <figcaption>Aba Nigeria Temple</figcaption>
-            </figure>
-        </div>
+    </nav>
+</header>
 
-    </main>
-    <footer>
-        <p>&copy; <span id="currentyear"></span> | Olamide Daniel | Nigeria</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
-    </footer>
+<main>
+
+    <div id="templeList"></div>
+
+</main>
 
 </body>
 
+<footer class="pag">
+    <p>&copy; <span id="currentyear"></span> | Olamide Daniel | Nigeria</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
 </html>

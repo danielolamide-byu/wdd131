@@ -1,25 +1,23 @@
+:root {
+    --color: white;
+    --background-color: blue;
+}
+
 header nav {
     display: flex;
-    color: rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
     flex: 1 1 100px;
-    background-color: blueviolet;
+    background-color: coral;
     align-items: center;
 }
 
 header nav a {
     display: flex;
     flex: 1 1 auto;
-    color: #0c0c0c;
+    width: auto;
     padding: 1.3rem;
     text-decoration: none;
     justify-content: center;
-}
-
-body main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 
 body main h2 {
@@ -30,21 +28,8 @@ body main h2 {
 }
 
 nav ul li a:hover {
-    color: coral;
+    color: rgb(80, 255, 165);
     transform: translateY(-2px);
-}
-
-body main div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-items: center;
-}
-
-body main div figure img {
-    width: 200px;
-    display: block;
-    margin: 0 auto;
 }
 
 .hamburger {
@@ -53,7 +38,7 @@ body main div figure img {
     font-size: 2rem;
     background: none;
     border: none;
-    color: rgb(20, 19, 19);
+    color: rgb(162, 19, 19);
     cursor: pointer;
 }
 
@@ -68,14 +53,71 @@ body main div figure img {
 
 .nav-links li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(10, 9, 9);
     font-weight: bold;
 }
 
-footer {
-    color: yellow;
-    background-color: rgb(23, 57, 225);
-    padding: 20px;
+h3 {
+    display: grid;
+    position: absolute;
+    grid-auto-flow: column;
+    color: rgb(250, 158, 21);
+    align-items: center;
+    margin-bottom: 400px;
+    margin-left: 0;
+}
+
+.card {
+    height: 300px;
+    width: 350px;
+    background-color: black;
+    box-shadow: 0 0 30px #f5f1f1;
+    margin: 20px;
     border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-left: 110px;
+    gap: 10px;
+}
+
+
+p {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 100px 100px 100px;
+    margin: 0px;
+    justify-content: center;
+    display: inline-block;
+    color: white;
+    white-space: nowrap;
+}
+
+img {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: -30px;
+    /**margin: 110px 0px 0px -50px;*/
+}
+
+.pag {
+color: black;
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 1px;
     text-align: center;
 }
+
+body main div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 15px;
+    gap: 17px;
+}
+
