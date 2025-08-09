@@ -20,6 +20,13 @@ img {
     border-radius: 4px;
 }
 
+img.logo {
+    position: absolute;
+    color: aqua;
+    left: 25px;
+    top: 0;
+}
+
 .info {
     background-color: aquamarine;
     border-radius: 10px;
@@ -36,12 +43,13 @@ header {
 display: flex;
 padding: 20px;
 justify-content: center;
-background-color: black;
+background-color: blue;
 }
 
 a {
     margin: 20px;
     color: aquamarine;
+    font-family: "Poetsen One", sans-serif;
 }
 
 .filter {
