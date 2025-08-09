@@ -3,6 +3,10 @@
     --background-color: blue;
 }
 
+body {
+    font-family: "Dancing Script", cursive;
+}
+
 header nav {
     display: flex;
     color: rgb(0, 0, 0);
@@ -105,7 +109,7 @@ img {
 }
 
 .pag {
-color: black;
+display: grid;
 background-color: var(--background-color);
 padding: 20px;
 border-radius: 1px;
