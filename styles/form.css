@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+}
+header {
+    background-color: rgb(211, 5, 211);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formSection {
+    background-color: rgb(224, 199, 247);
+}
+
+.drop {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(225, 223, 223);
+}
+
+.radio{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.star1::after {
+    content: "\2606";
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.star2::after {
+    content: "\2606""\2606";
+    margin-left: 20px;
+     font-weight: bolder;
+}
+
+.star3::after {
+    content: "\2606" "\2606""\2606";
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.star4::after {
+    content: "\2606" "\2606""\2606""\2606";
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+.star5::after {
+    content: "\2606""\2606""\2606""\2606""\2606";
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border-radius: 5px;
+    width: 93%;
+    margin-bottom: 30px;
+    background-color: rgb(225, 223, 223);
+}
+
+.date {
+    margin-top: 30px;
+}
+
+.checkboxes {
+    margin-top: 10px;
+    display: grid;
+    gap: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.review {
+    margin-top: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+     background-color: rgb(225, 223, 223);
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    background-color: rgb(225, 223, 223);
+}
+
+.button {
+    display: grid;
+}
+
+input[type="submit"] {
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    color: blue;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+h2 {
+    color: green;
+}
+
+h4 {
+    color: blue;
+}
+
+.reviewPage {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    color: yellow;
+    background-color: rgb(211, 5, 211);
+    padding: 20px;
+    border-radius: 3px;
+    text-align: center;
+    width: auto;
+}
+
+
+
+
+
+
+

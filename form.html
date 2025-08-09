@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+<br>
+<div class="formSection">
+    <form action="review.html" method="get" >
+        <fieldset>
+        <label>
+            <p>Product Name*</p>
+            <select name="product" id=" product"  class="drop" required>
+                <option value="">Please select a product..</option>
+                <option value="flux capacitor">Flux Capacitor</option>
+                <option value="power laces">Power Laces</option>
+                <option value="time circuits">Time Circuits</option>
+                <option value="low voltage reactor">Low Voltage Reactor</option>
+                <option value="warp equalizer">Warp Equalizer</option>
+            </select>
+        </label>
+        
+        <label>
+            <p>Overall Rating*</p>
+            <div class="s"></div>
+            <div class="radio">
+            <input type="radio" name="rating" id="rating" class="star1" required>
+            <input type="radio" name="rating" id="rating" class="star2" required>
+            <input type="radio" name="rating" id="rating" class="star3" required>
+            <input type="radio" name="rating" id="rating" class="star4" required>
+            <input type="radio" name="rating" id="rating" class="star5" required>
+            </div>
+            </label>
+
+            <div class="date">
+            <p>Date of Installation*</p>
+            <label><input type="date" id="installationDate" name="dateOfInstallation" required></label>
+            </div>
+
+            <p>Which features did you find useful in the products?</p>
+            <div class="checkboxes">
+            <label><input type="checkbox" value="yes" id="features" name="durability">Durability</label>
+            <label><input type="checkbox" value="yes" id="features" name="ease-of-use">Ease of use</label>
+            <label><input type="checkbox" value="yes" id="features" name="performance">Performance</label>
+            <label><input type="checkbox" value="yes" id="features" name="design">Design</label>
+            </div>
+             
+            <label>
+            <div class="review"><p>Written Review(Optional)</p>
+            <textarea id="review" name="review" placeholder="Review goes here"></textarea>
+            </div>
+            </label>
+
+             <label>
+            <p>Your Name(Optional)</p>
+            <input type="text" id="name" name="user'sname">
+            </label>
+</fieldset>
+
+<div class="button">
+<input type="submit" value="Review Product">
+</div>
+</form>
+
+</div>
+
+<footer class="pag">
+    <p>&copy; <span id="currentyear"></span> | Olamide Daniel | Nigeria</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
+</body>
+</html>

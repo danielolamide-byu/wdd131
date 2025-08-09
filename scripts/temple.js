@@ -159,7 +159,7 @@ const hamburger = document.getElementById('hamburger-btn');
     }
   });
 
-  const getYear = new Date();
+const getYear = new Date();
 const currentYear = getYear.getFullYear();
 
 document.getElementById('currentyear').textContent = currentYear;

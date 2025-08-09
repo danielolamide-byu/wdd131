@@ -1,0 +1,15 @@
+
+
+.diver {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: -10px;
+    margin: 10px;
+}
+
+.come {
+    background-color: aquamarine;
+    height: 200px;
+    margin: 20px;
+    gap: -10px;
+}

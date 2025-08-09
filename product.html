@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD-131 Project">
+    <meta name="author" content="Daniel">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <a href="home.html" class="links">Home</a>
+    <a href="contact.html" class="links">Contact</a>
+    <a href="project.html" class="links">Product</a>
+    </header>
+
+    <strong id="cart">🛒</strong>
+    <strong id="carts"></strong>
+
+    <div class="mainContainer">
+    <section class="filter">
+    <h3>Filter by price</h3>
+        <br>
+        <br>
+        <div class="priceFilter">
+        <label><input type="radio" id="under100" name="price">Under $100</label>
+        <label><input type="radio" id="under200" name="price">Under $200</label>
+        <label><input type="radio" id="under300" name="price">Under $300</label>
+        <label><input type="radio" id="under400" name="price">Under $400</label>
+        <label><input type="radio" id="under500" name="price">Under $500</label>
+        <label><input type="radio" id="under600" name="price">Under $600</label>
+    </div>
+    </section>
+
+    <div class="products" id="products"></div>
+    </div>
+    
+</body>
+<footer class="pag">
+    <p>&copy; <span id="currentyear"></span> | Olamide Daniel | Nigeria</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+</footer>
+
+</html>

@@ -102,15 +102,14 @@ img {
     height: 150px;
     margin-top: 80px;
     margin-left: -30px;
-    /**margin: 110px 0px 0px -50px;*/
 }
 
 .pag {
 color: black;
-    background-color: var(--background-color);
-    padding: 20px;
-    border-radius: 1px;
-    text-align: center;
+background-color: var(--background-color);
+padding: 20px;
+border-radius: 1px;
+text-align: center;
 }
 
 body main div {
