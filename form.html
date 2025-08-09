@@ -18,9 +18,9 @@
 <div class="formSection">
     <form action="review.html" method="get" >
         <fieldset>
+        <p>Product Name*</p>
         <label>
-            <p>Product Name*</p>
-            <select name="product" id=" product"  class="drop" required>
+            <select name="product" id="product"  class="drop" required>
                 <option value="">Please select a product..</option>
                 <option value="flux capacitor">Flux Capacitor</option>
                 <option value="power laces">Power Laces</option>
@@ -30,17 +30,15 @@
             </select>
         </label>
         
-        <label>
-            <p>Overall Rating*</p>
+        <p>Overall Rating*</p>
             <div class="s"></div>
             <div class="radio">
-            <input type="radio" name="rating" id="rating" class="star1" required>
-            <input type="radio" name="rating" id="rating" class="star2" required>
-            <input type="radio" name="rating" id="rating" class="star3" required>
-            <input type="radio" name="rating" id="rating" class="star4" required>
-            <input type="radio" name="rating" id="rating" class="star5" required>
+            <input type="radio" name="ratings1" id="rating1" class="star1" required>
+            <input type="radio" name="ratings2" id="rating2" class="star2" required>
+            <input type="radio" name="ratings3" id="rating3" class="star3" required>
+            <input type="radio" name="ratings4" id="rating4" class="star4" required>
+            <input type="radio" name="ratings5" id="rating5" class="star5" required>
             </div>
-            </label>
 
             <div class="date">
             <p>Date of Installation*</p>
@@ -49,20 +47,22 @@
 
             <p>Which features did you find useful in the products?</p>
             <div class="checkboxes">
-            <label><input type="checkbox" value="yes" id="features" name="durability">Durability</label>
-            <label><input type="checkbox" value="yes" id="features" name="ease-of-use">Ease of use</label>
-            <label><input type="checkbox" value="yes" id="features" name="performance">Performance</label>
-            <label><input type="checkbox" value="yes" id="features" name="design">Design</label>
+            <label><input type="checkbox" value="yes" id="features1" name="durability">Durability</label>
+            <label><input type="checkbox" value="yes" id="features2" name="ease-of-use">Ease of use</label>
+            <label><input type="checkbox" value="yes" id="features3" name="performance">Performance</label>
+            <label><input type="checkbox" value="yes" id="features4" name="design">Design</label>
             </div>
              
+            <div class="review">
+            <p>Written Review(Optional)</p>
             <label>
-            <div class="review"><p>Written Review(Optional)</p>
             <textarea id="review" name="review" placeholder="Review goes here"></textarea>
-            </div>
             </label>
+            </div>
 
-             <label>
+
             <p>Your Name(Optional)</p>
+             <label>
             <input type="text" id="name" name="user'sname">
             </label>
 </fieldset>
