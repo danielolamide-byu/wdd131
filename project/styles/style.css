@@ -1,0 +1,14 @@
+
+body {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: grid;
+    justify-content: center;
+    background-color: #39A0ED;
+   color: #36F1CD;
+}
+
+img {
+    margin-left: 200px;
+}

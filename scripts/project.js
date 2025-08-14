@@ -241,7 +241,7 @@ function displayProducts(filteredProducts){
         div.classList.add("cards");
         div.innerHTML = `
         <div class="info">
-        <img src="${product.image}" alt="${product.name}" width="282" height="188" loading="lazy"/>
+        <img src="${product.image}" alt="${product.name}" width="281" height="187" loading="lazy"/>
         <br>
         <h2>${product.name}</h2>
         <p class="information">Price: $${product.price}</p>
